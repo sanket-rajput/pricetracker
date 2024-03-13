@@ -1,5 +1,5 @@
 // Import necessary modules
-import "@/styles/globals.css";
+// import "@/styles/globals.css";
 import "@/styles/webCSS.css";
 
 import type { AppProps } from "next/app";
