@@ -5,7 +5,6 @@ import animationData from '../../../public/assets/loading blue.json';
 import scrapeAndStoreProduct from '../api/scrapProduct/scrapAndStoreProduct';
 import { FormEvent, useState } from 'react';
 import { MdClear } from 'react-icons/md';
-import '../styles/globals.css'; 
 
 
 
