@@ -3,13 +3,14 @@ import Lottie from 'lottie-react';
 import Footer from './components/footer';
 import HeroCarouselFull from './components/HeroCarouselFull';
 import PriceTrackerAccessSteps from './components/exeuationSteps';
-import Navbar from './components/Navbar';
-import animationData from '../../public/assets/loading blue.json';
 import MyComponent from './displayProduct/display';
-import SectionBelowNavbar from './components/categorise';
-import ProductCard from './components/ProductCard';
 import HomeAnim from '../../public/assets/home anim.json';
 import Head from 'next/head';
+
+import Navbar from './components/Navbar';
+import animationData from '../../public/assets/loading blue.json';
+import SectionBelowNavbar from './components/categorise';
+import ProductCard from './components/ProductCard';
 
 
 
