@@ -7,11 +7,9 @@ import HeroCarouselFull from './components/HeroCarouselFull';
 import PriceTrackerAccessSteps from './components/ExeuationSteps';
 import HomeAnim from '../../public/assets/home anim.json';
 import QualitiesSection from './components/QualitiesSection';
-import Slider_Products from './components/Slider_Products';
 import ScrollToTopButton from './components/ScrollToUpButton';
 import DisplayComponent from './displayProduct/DisplayComponent';
 import BgGrid from './components/BgGrid';
-import MyComponent from './components/BgGrid';
 
 
 const Home = () => {
@@ -67,9 +65,9 @@ const Home = () => {
 
 
 
-      <section className='min-w-full bg-slate-700 h-min mt-4 p-0'>
+      {/* <section className='min-w-full bg-slate-700 h-min mt-4 p-0'>
         <Slider_Products />
-      </section>
+      </section> */}
 
 
       <section className=" " >
