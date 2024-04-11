@@ -40,7 +40,7 @@ async function scrapProduct(url: any, ecommercePlatform: any) {
         //Scrap product
 
         let f_scrapData, s_scrapData;
-        const browser = await puppeteer.launch({ headless: false });
+        const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
         const platform1 = "Amazoan";
         const platform2 = "Flipkart";
